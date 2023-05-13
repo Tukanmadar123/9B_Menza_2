@@ -1,3 +1,13 @@
+@font-face{
+  font-family: MargotBI;
+  src: url(Margot-BoldItalic.ttf);
+}
+
+@font-face{
+  font-family:MargotI ;
+  src: url(Margot-RegularItalic.ttf);
+}
+
 body {
     background-color: white;
     color: black;
@@ -55,16 +65,26 @@ body {
 }
 
 #card{
-  width: 800px;
-  height: 830px;
+  width: 600px;
+  height: 630px;
   display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px 15px;
-  background-image: url();
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(husleves-600x600.jpg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+}
+
+.margot{
+  font-family: MargotBI;
+  text-align: center;
+}
+
+.hozzavalok{
+  font-size: 20px;
+  font-family: MargotI;
+  text-shadow: #444;
 }
