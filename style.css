@@ -50,3 +50,21 @@ body {
     font-size: 18px; /* Increase font size */
   }
 
+.kajaborder{
+  border: 3px solid black;
+}
+
+#card{
+  width: 800px;
+  height: 830px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+}
