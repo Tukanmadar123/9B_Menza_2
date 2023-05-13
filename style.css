@@ -9,19 +9,20 @@
 }
 
 body {
-    background-color: white;
+  background-image: url(foodpattern.jpg);
+  background-size: 50%;
     color: black;
     font-family: Arial, sans-serif;
-    background-color: #fff;
   }
   header {
-    background-color: red;
-    color: white;
+    background-color: rgb(44, 44, 44);
+    background-size: 20%;
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
   }
   nav {
-    background-color: #ddd;
+    background-color: #000000;
     overflow: hidden;
   }
   nav a {
