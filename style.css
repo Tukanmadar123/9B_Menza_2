@@ -9,8 +9,8 @@
 }
 
 body {
-  background-image: url(foodpattern.jpg);
-  background-size: 30%;
+  background-image: url(pattern.jpg);
+  background-size: 50%;
     color: black;
     font-family: Arial, sans-serif;
   }
@@ -66,17 +66,61 @@ body {
 }
 
 #card{
-  width: 585px;
+  width: 550px;
   height: 615px;
   display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
   cursor: pointer;
-  margin: 10px 15px;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(husleves-600x600.jpg);
+  margin: 60px 15px;
   background-position: center;
   background-size: cover;
+}
+.húslev{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(husleves-600x600.jpg);
+}
+.rántotth{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(rantott-hus-2.jpg);
+}
+.túrós{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_klasszikus-turogomboc-recept.jpg);
+}
+.gulyás{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_gulyas-\(1\).jpg);
+}
+.pöri{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(pöri.jpg);
+}
+.palacsinta{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_legjobb-palacsinta-recept.jpg);
+}
+.zöld{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_zoldsegleves.jpg);
+}
+.hall{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(hal.jpg);
+}
+.brownie{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_brownie-20170920154443.jpg);
+}
+.komm{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(64539.jpg);
+}
+.töltöttkáp{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(töltöttkáp.jpg);
+}
+.griz{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_lead_social_grizes-teszta-baracklekvarral1-201510170627.jpg);
+}
+.gyüm{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(gyumolcsleves.jpg);
+}
+.sülcsi{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(csirek.jpg);
+}
+.griz{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(letöltés.jpg);
 }
 
 .margot{
@@ -88,4 +132,7 @@ body {
   font-size: 20px;
   font-family: MargotI;
   text-shadow: #444;
+}
+.kozep{
+  text-align: center;
 }
