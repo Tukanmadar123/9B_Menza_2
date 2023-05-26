@@ -1,0 +1,151 @@
+@font-face{
+  font-family: MargotBI;
+  src: url(Margot-BoldItalic.ttf);
+}
+
+@font-face{
+  font-family:MargotI ;
+  src: url(Margot-RegularItalic.ttf);
+}
+
+body {
+  background-size: 50%;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: rgb(44, 44, 44);
+    background-size: 20%;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  nav a {
+    display: block;
+    float: left;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #ccc;
+  }
+  section {
+    padding: 20px;
+  }
+  footer {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+.kajaborder{
+  border: 3px solid black;
+}
+
+#card{
+  width: 550px;
+  height: 615px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 60px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: .3s ease;
+}
+
+#card:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+
+.húslev{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(husleves-600x600.jpg);
+}
+.rántotth{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(rantott-hus-2.jpg);
+}
+.túrós{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_klasszikus-turogomboc-recept.jpg);
+}
+.gulyás{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_gulyas-\(1\).jpg);
+}
+.pöri{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(pöri.jpg);
+}
+.palacsinta{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_legjobb-palacsinta-recept.jpg);
+}
+.zöld{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_zoldsegleves.jpg);
+}
+.hall{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(hal.jpg);
+}
+.brownie{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_brownie-20170920154443.jpg);
+}
+.komm{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(64539.jpg);
+}
+.töltöttkáp{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(töltöttkáp.jpg);
+}
+.griz{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_lead_social_grizes-teszta-baracklekvarral1-201510170627.jpg);
+}
+.gyüm{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(gyumolcsleves.jpg);
+}
+.sülcsi{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(csirek.jpg);
+}
+.griz{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(letöltés.jpg);
+}
+
+.margot{
+  font-family: MargotBI;
+  text-align: center;
+}
+
+.hozzavalok{
+  font-size: 20px;
+  font-family: MargotI;
+  text-shadow: #444;
+}
+.kozep{
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
