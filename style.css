@@ -75,7 +75,8 @@ margin-top: 75px;
 #szovegborder{
   border: 1px solid rgb(0, 0, 0);
   border-radius: 20px;
-  background-image: url(whitepattern.);
+  background-image: url(whitepattern.jpg);
+  background-size: 40%;
   width: 200px;
   margin: auto;
   margin-top: 10px;
@@ -164,4 +165,8 @@ margin-top: 75px;
 }
 p{
   font-size: 20px;
+}
+
+#pentek{
+
 }
