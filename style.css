@@ -72,6 +72,15 @@ width: auto;
 margin-top: 75px;
 }
 
+#szovegborder{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  background-image: url(whitepattern.);
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+}
+
 #card{
   width: 500px;
   height: 600px;
