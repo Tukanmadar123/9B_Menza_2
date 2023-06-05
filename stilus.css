@@ -9,7 +9,6 @@
 }
 
 body {
-  background-image: url(pattern.jpg);
   background-size: 50%;
     color: black;
     font-family: Arial, sans-serif;
@@ -44,6 +43,9 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px
   }
   #myBtn {
     display: none; /* Hidden by default */
@@ -62,40 +64,21 @@ body {
   }
 
 .kajaborder{
-  border:solid 0px;
-  background-image: url(ujtabla.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-border-radius: 40px;
-padding: 5px;
-width: auto;
-margin-top: 75px;
-}
-
-#szovegborder{
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 20px;
-  background-image: url(whitepattern.jpg);
-  background-size: 40%;
-  width: 200px;
-  margin: auto;
-  margin-top: 10px;
+  border: 3px solid black;
 }
 
 #card{
-  width: 500px;
-  height: 600px;
+  width: 450px;
+  height: 515px;
   display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
   cursor: pointer;
-  margin: 35px 0px;
+  margin: 60px 15px;
   background-position: center;
   background-size: cover;
   transition: .3s ease;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 #card:hover{
@@ -105,49 +88,49 @@ margin-top: 75px;
 }
 
 .húslev{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(husleves-600x600.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(husleves-600x600.jpg);
 }
 .rántotth{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(rantott-hus-2.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(rantott-hus-2.jpg);
 }
 .túrós{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_klasszikus-turogomboc-recept.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_klasszikus-turogomboc-recept.jpg);
 }
 .gulyás{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_gulyas-\(1\).jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_gulyas-\(1\).jpg);
 }
 .pöri{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(pöri.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(pöri.jpg);
 }
 .palacsinta{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_legjobb-palacsinta-recept.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_legjobb-palacsinta-recept.jpg);
 }
 .zöld{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_zoldsegleves.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_zoldsegleves.jpg);
 }
 .hall{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(hal.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(hal.jpg);
 }
 .brownie{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_brownie-20170920154443.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_brownie-20170920154443.jpg);
 }
 .komm{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(64539.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(64539.jpg);
 }
 .töltöttkáp{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(töltöttkáp.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(töltöttkáp.jpg);
 }
 .griz{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_lead_social_grizes-teszta-baracklekvarral1-201510170627.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(lead_L_lead_social_grizes-teszta-baracklekvarral1-201510170627.jpg);
 }
 .gyüm{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(gyumolcsleves.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(gyumolcsleves.jpg);
 }
 .sülcsi{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(csirek.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(csirek.jpg);
 }
 .griz{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(letöltés.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(letöltés.jpg);
 }
 
 .margot{
@@ -166,7 +149,6 @@ margin-top: 75px;
 p{
   font-size: 20px;
 }
-
-#pentek{
-
+.felsorolas{
+  text-align: justify;
 }
