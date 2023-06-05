@@ -1,0 +1,96 @@
+@font-face{
+    font-family: MargotBI;
+    src: url(Margot-BoldItalic.ttf);
+  }
+  
+  @font-face{
+    font-family:MargotI ;
+    src: url(Margot-RegularItalic.ttf);
+  }
+  
+  @font-face{
+    font-family:Margot ;
+    src: url(Margot-Bold.ttf);
+  }
+
+
+body {
+    background-image: url(feketefeher.avif);
+    background-size: 50%;
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: rgb(44, 44, 44);
+      background-size: 20%;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #000000;
+      overflow: hidden;
+    }
+    nav a {
+      display: block;
+      float: left;
+      padding: 20px;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #ccc;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #444;
+      color: white;
+      padding: 20px;
+      text-align: center;}
+
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: red; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+
+      .bordermargin{
+        margin:auto;
+        margin-top: 50px;
+      }
+
+      .kajaborder{
+        border:solid 0px;
+        background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(ujtabla.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      border-radius: 40px;
+      padding: 50px;
+      width: auto;
+      margin-top: 75px;
+      font-family: Margot;
+      }
+
+      .animacio{
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
+
+      .animacio:hover{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+      }
