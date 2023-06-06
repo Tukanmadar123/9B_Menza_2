@@ -104,52 +104,6 @@ margin-top: 75px;
   -ms-transform: scale(1.1);
 }
 
-.húslev{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(husleves-600x600.jpg);
-}
-.rántotth{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(rantott-hus-2.jpg);
-}
-.túrós{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_klasszikus-turogomboc-recept.jpg);
-}
-.gulyás{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_gulyas-\(1\).jpg);
-}
-.pöri{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(pöri.jpg);
-}
-.palacsinta{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_legjobb-palacsinta-recept.jpg);
-}
-.zöld{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_zoldsegleves.jpg);
-}
-.hall{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(hal.jpg);
-}
-.brownie{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_brownie-20170920154443.jpg);
-}
-.komm{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(64539.jpg);
-}
-.töltöttkáp{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(töltöttkáp.jpg);
-}
-.griz{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(lead_L_lead_social_grizes-teszta-baracklekvarral1-201510170627.jpg);
-}
-.gyüm{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(gyumolcsleves.jpg);
-}
-.sülcsi{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(csirek.jpg);
-}
-.griz{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(letöltés.jpg);
-}
-
 .margot{
   font-family: MargotBI;
   text-align: center;
