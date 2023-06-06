@@ -152,3 +152,15 @@ p{
 .felsorolas{
   text-align: justify;
 }
+.elborder{
+  border: 1px solid black;
+  margin: auto;
+  text-align: justify;
+  width: 600px;
+  height: max-content;
+  border-radius: 30px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background-image: url(greenpattern.jpg);
+}
