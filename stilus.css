@@ -164,3 +164,7 @@ p{
   margin-bottom: 80px;
   background-image: url(greenpattern.jpg);
 }
+
+.kozep{
+  margin: auto;
+}
