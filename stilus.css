@@ -8,6 +8,17 @@
   src: url(Margot-RegularItalic.ttf);
 }
 
+.hatter1{
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(falevel.jpg);
+}
+
+.hatter2{
+  background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(paprika.jpg);
+  }
+
 body {
   background-size: 50%;
     color: black;
@@ -203,4 +214,35 @@ h3 {
 
 .btn:hover {
   background-color: #0056b3;
+}
+
+.shadow1{
+  text-shadow: 2px 2px black;
+  font-family: MargotI;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.hatter3{
+  background-color: #5f5f5f;
+}
+
+.alsomargo{
+  margin-bottom: 150px;
+}
+
+
+.bordered-text {
+  border: 2px solid #000;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 95px;
+  font-family: sans-serif;
+}
+
+.bordered-text p {
+  margin: 0;
 }
