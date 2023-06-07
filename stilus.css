@@ -195,7 +195,7 @@ h3 {
  background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(greenfade.avif);
  background-repeat: no-repeat;
  background-size: cover;
-  padding: 10px;
+  padding: 30px;
   width: 800px;
   margin: auto;
   margin-top: 50px;
@@ -204,6 +204,7 @@ h3 {
   text-align: justify;
   color: white;
   text-shadow: 2px 2px black;
+  border-radius: 20px;
 }
 
 .bordered-text p {
